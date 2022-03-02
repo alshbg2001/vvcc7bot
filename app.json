@@ -1,7 +1,7 @@
 {
     "name": "Video x Music Stream Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "http://telegra.ph/Besso-03-02",
+    "logo": "https://telegra.ph/file/541813404cfcafdd29127.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
@@ -47,19 +47,22 @@
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
+            "value": "vvcc7"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
+            "value": "vvcc7"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
+            "value": "FSFFF"
         },
         "ALIVE_NAME": {
             "description": "اتركها كما هي",
             "required": true,
-            "value": "BESSO"
+            "value": "Besso..🎶"
         }
     },
     "addons": [],
