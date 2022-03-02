@@ -72,16 +72,13 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton("🎯 المطور 🎯", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
-                    InlineKeyboardButton(
-                        "🎯 قناة البوت 🎯", url=f"https://t.me/{GROUP_SUPPORT}"
-                    ),
-                    InlineKeyboardButton(
-                        "🎯 كروب الدعم 🎯", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    ),
+                    InlineKeyboardButton("🎯 قناة البوت 🎯", url=f"https://t.me/{GROUP_SUPPORT}"),
+                    ],
+                [
+                    InlineKeyboardButton("🎯 كروب الدعم 🎯", url=f"https://t.me/{UPDATES_CHANNEL}"),
                 ],
                 [
-                    InlineKeyboardButton(
-                        "🎯 سورس رايوت 🎯", url="https://t.me/vvcc7"
+                    InlineKeyboardButton("🎯 سورس رايوت 🎯", url="https://t.me/vvcc7"
                     )
                 ],
             ]
