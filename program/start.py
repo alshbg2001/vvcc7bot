@@ -52,7 +52,7 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""🎯￤ **مرحبا عزيزي ↤ {message.from_user.mention()} !**\n
+        f"""🎯**مرحبا عزيزي ↤ {(message.from_user.mention)} !**\n
 🎯￤ **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) **
 ** يتيح لك تشغيل الموسيقى والفيديو في مجموعات من خلال المكالمات الجديدة في Telegram! **
 🎯￤ ** اكتشف جميع أوامر البوت وكيفية عملها من خلال النقر على زر »📚 الأوامر! **
