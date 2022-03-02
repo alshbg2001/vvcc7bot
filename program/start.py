@@ -59,26 +59,9 @@ async def start_(client: Client, message: Message):
 🎯￤ ** لمعرفة كيفية استخدام هذا البوت ، يرجى النقر فوق » زر دليل الاستخدام! **
 """,
         reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "🎯 اضفني الى مجموعتك 🎯",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                    )
-                ],
-                [InlineKeyboardButton("🎯 طريقة الاستخدام 🎯", callback_data="cbhowtouse")],
-                [
-                    InlineKeyboardButton("🎯 الاوامر 🎯", callback_data="cbbasic"),
-                    InlineKeyboardButton("🎯 المطور 🎯", url=f"https://t.me/{OWNER_NAME}"),
-                ],
-                [
-                    InlineKeyboardButton("🎯 قناة البوت 🎯", url=f"https://t.me/{GROUP_SUPPORT}"),
-                    ],
-                [
-                    InlineKeyboardButton("🎯 كروب الدعم 🎯", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                ],
-                [
-                    InlineKeyboardButton("🎯 سورس رايوت 🎯", url="https://t.me/vvcc7"
+            [[InlineKeyboardButton("🎯 اضفني الى مجموعتك 🎯",url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                [InlineKeyboardButton("🎯 طريقة الاستخدام 🎯", callback_data="cbhowtouse")],[InlineKeyboardButton("🎯 الاوامر 🎯", callback_data="cbbasic")],[InlineKeyboardButton("🎯 المطور 🎯", url=f"https://t.me/{OWNER_NAME}"),],
+                [InlineKeyboardButton("🎯 قناة البوت 🎯", url=f"https://t.me/{GROUP_SUPPORT}")],[InlineKeyboardButton("🎯 كروب الدعم 🎯", url=f"https://t.me/{UPDATES_CHANNEL}")],[InlineKeyboardButton("🎯 سورس رايوت 🎯", url="https://t.me/vvcc7"
                     )
                 ],
             ]
@@ -95,15 +78,8 @@ async def alive(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
 
-    keyboard = InlineKeyboardMarkup(
-        [
-            [
-                InlineKeyboardButton("🎯 سورس رايوت 🎯", url=f"https://t.me/vvcc7"),
-            ]
-        ]
-    )
-
-    alive = f"**مرحبآ  {message.from_user.mention()}, انا {BOT_NAME}**\n\n✨ البوت يعمل بشكل طبيعي\n🍀 انا : [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ اصدار Bot : `v{__version__}`\n🍀 اصدار Pyrogram : `{pyrover}`\n✨ اصدار Python: `{__python_version__}`\n🍀 اصدار PyTgCalls : `{pytover.__version__}`\n✨ وقت التشغيل: `{uptime}`\n\n**شكرًا لإضافتي هنا ، لتشغيل الفيديو والموسيقى على دردشة الفيديو الخاصة بمجموعتك ** ❤"
+    keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("🎯 سورس رايوت 🎯", url=f"https://t.me/vvcc7"),]])
+alive = f"**مرحبآ  {message.from_user.mention()}, انا {BOT_NAME}**\n\n✨ البوت يعمل بشكل طبيعي\n🍀 انا : [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ اصدار Bot : `v{__version__}`\n🍀 اصدار Pyrogram : `{pyrover}`\n✨ اصدار Python: `{__python_version__}`\n🍀 اصدار PyTgCalls : `{pytover.__version__}`\n✨ وقت التشغيل: `{uptime}`\n\n**شكرًا لإضافتي هنا ، لتشغيل الفيديو والموسيقى على دردشة الفيديو الخاصة بمجموعتك ** ❤"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
