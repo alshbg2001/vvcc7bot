@@ -39,10 +39,13 @@ async def cbstart(_, query: CallbackQuery):
                     InlineKeyboardButton(
                         "🎯 قناة البوت 🎯", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
+                    InlineKeyboardButton(
+                        "🎯 كروب الدعم 🎯", url=f"https://t.me/vvcc7"
+                    ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎯 سورس رايوت 🎯", url="https://t.me/vvcc7"
+                        "🎯 BESSO 🎯", url="https://t.me/vvcc7"
                     )
                 ],
             ]
@@ -66,7 +69,7 @@ async def cbguides(_, query: CallbackQuery):
 
  🎯￤ إذا كانت لديك أسئلة  حول هذا البوت ، فيمكنك إخبارنا منن خلال قروب الدعم الخاصة بي هنا ↤ @{GROUP_SUPPORT}
 
- 🎯￤ ادارة سورس رايوت @vvcc7 
+ 🎯￤ ادارة سورس رايوت @vvcc7
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -111,7 +114,7 @@ async def cbbasic(_, query: CallbackQuery):
 🎯￤ /pause ايقاف التشغيل موقتآ
 🎯￤ /vmute لكتم البوت
 🎯￤ /vunmute لرفع الكتم عن البوت
-🎯￤ ادارة سورسرايوت @vvcc7
+🎯￤ ادارة سورس رايوت @vvcc7
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 الـتـالـي", callback_data="cbadmin")]]
@@ -131,7 +134,7 @@ async def cbadmin(_, query: CallbackQuery):
 🎯￤ /userbotleave لطرد حساب المساعد 
 🎯￤ /ping - إظهار حالة البوت بينغ
 🎯￤ /alive  إظهار معلومات البوت  (في المجموعة)
-🎯￤ ادارة سورسرايوت @vvcc7
+🎯￤ ادارة سورس رايوت @vvcc7
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -150,7 +153,7 @@ async def cbsudo(_, query: CallbackQuery):
 🎯￤ /restart - restart your bot
 🎯￤ /leaveall - order userbot to leave from all group
 
-🎯￤ ادارة سورسرايوت @vvcc7
+🎯￤ ادارة سورس رايوت @vvcc7
 """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
