@@ -3,7 +3,6 @@ from pytgcalls import idle
 from driver.amort import call_py, bot
 
 async def mulai_bot(
-    print("[amort]: STARTING BOT CLIENT"), 
     await bot.start(
     print("[amort]: STARTING PYTGCALLS CLIENT")
     await call_py.start(
