@@ -1,16 +1,16 @@
 {
     "name": "Video x Music Stream Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/541813404cfcafdd29127.jpg",
+    "logo": "http://telegra.ph/Besso-03-02",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/VFF35",
-    "repository": "https://github.com/FaHH12/Cobra",
-    "success_url": "https://t.me/hama_refaat",
+    "website": "https://t.me/vvcc7",
+    "repository": "https://github.com/vvcc7bot/vvcc7bot",
+    "success_url": "https://t.me/vvcc7",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -27,14 +27,17 @@
         "BOT_USERNAME": {
             "description": "قم بوضع يوزر بوتك بدون علامة @",
             "required": true
+            "value": "FFFFFSBOT"
         },
         "BOT_NAME": {
             "description": "قم بوضع يوزر بوتك بدون علامة @",
             "required": true
+            "value": "FFFFFSBOT"
         },
         "ASSISTANT_NAME": {
             "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
             "required": true
+            "value": "ccvvcc7"
         },
         "SESSION_NAME": {
             "description": "قم بوضع كود تيرمكس هنا",
@@ -43,26 +46,27 @@
         "SUDO_USERS": {
             "description": "قم بوضع ايدي المطور الاساسي",
             "required": true
+            "value": "620800281"
         },
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": "faqek"
+            "value": "VVCC7"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "VFF35"
+            "value": "VVCC7"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": "QABNADLIB"
+            "value": "FSFFF"
         },
         "ALIVE_NAME": {
             "description": "اتركها كما هي",
             "required": true,
-            "value": "𝐒𝐎𝗨𝐑𝐂𝐄 𝐂𝐎𝐁𝐑𝐀..🎶"
+            "value": "BESSO"
         }
     },
     "addons": [],
