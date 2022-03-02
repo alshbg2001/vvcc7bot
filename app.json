@@ -8,9 +8,9 @@
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/vvcc7",
-    "repository": "https://github.com/vvcc7bot/vvcc7bot",
-    "success_url": "https://t.me/vvcc7",
+    "website": "https://t.me/VFF35",
+    "repository": "https://github.com/FaHH12/Cobra",
+    "success_url": "https://t.me/hama_refaat",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -45,14 +45,14 @@
             "required": true
         },
         "GROUP_SUPPORT": {
-            "description": "ضع هنا يوزر قناتك بدون علامة @",
+            "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
             "value": "faqek"
         },
         "UPDATES_CHANNEL": {
-            "description": "ضع هنا يوزر كروبك بدون علامة @",
+            "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "vvcc7"
+            "value": "VFF35"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
@@ -62,7 +62,7 @@
         "ALIVE_NAME": {
             "description": "اتركها كما هي",
             "required": true,
-            "value": "سورس رايوت"
+            "value": "𝐒𝐎𝗨𝐑𝐂𝐄 𝐂𝐎𝐁𝐑𝐀..🎶"
         }
     },
     "addons": [],
