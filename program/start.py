@@ -81,11 +81,6 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("🎯 سورس رايوت 🎯", url=f"https://t.me/vvcc7"),]])
 alive = f"**مرحبآ  {message.from_user.mention()}, انا {BOT_NAME}**\n\n✨ البوت يعمل بشكل طبيعي\n🍀 انا : [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ اصدار Bot : `v{__version__}`\n🍀 اصدار Pyrogram : `{pyrover}`\n✨ اصدار Python: `{__python_version__}`\n🍀 اصدار PyTgCalls : `{pytover.__version__}`\n✨ وقت التشغيل: `{uptime}`\n\n**شكرًا لإضافتي هنا ، لتشغيل الفيديو والموسيقى على دردشة الفيديو الخاصة بمجموعتك ** ❤"
 
-    message.reply_photo (photo = f ("ALIVE_IMG")
-caption=alive,
-        reply_markup=keyboard,
-    )
-
 
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
